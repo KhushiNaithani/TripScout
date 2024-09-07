@@ -1,0 +1,29 @@
+.about-body{
+    width: 100%;
+    height: 92vh;    
+    display: flex;
+    background-color: rgb(209, 231, 250);
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-div1{
+    background-color: blanchedalmond;
+    background-image: url("../assets/about.jpg");
+    background-size: cover;
+    border-bottom-left-radius:50% ;
+    border-bottom-right-radius:50% ;
+    text-align: center;
+    width: 100%;
+    height: 80%;
+}
+
+.about-title{
+    margin-top:95px;
+    font-size: 3.5rem;
+}
+
+p{
+    margin-top: 15px; 
+    
+}

@@ -1,0 +1,43 @@
+.body-Home{
+    position: relative; 
+    width: 100%;
+    height:92vh;
+    background-color: aquamarine;
+    display:flex;
+    align-items: center;
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+}
+
+.body-Home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity */
+    z-index: 1;
+}
+
+.container-home{
+    position: relative;
+    z-index:2;
+    width:50%;
+    height:50%;
+    color:White;
+}
+
+.contain{
+    padding: 20px;
+}
+
+.button-home{
+    padding: 10px;
+    width: 10rem;
+    font-weight:bold ;
+    font-size: 1rem;
+    cursor:pointer;
+}
+
+
